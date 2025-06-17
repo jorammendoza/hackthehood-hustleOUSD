@@ -1,0 +1,31 @@
+START
+
+1. ASK "Do you want Military Time or Standard?
+2. ASK "Do you want AM or PM?"
+3. ASK "What day should the Alarm be?"
+4. ASK "What is the alarm time?"
+5. If alarm_time IS EQUAL to current_time, play alarm
+5a. ASK "Do you want to snooze or stop alarm?"
+5b1. IF snooze: pause alarm for 5 min
+5c. IF stop: turn off alarm
+6. If alarm_time IS NOT EQUAL to current_time:
+6a. wait
+6b. Return to step 4
+
+STOP
+
+
+START
+
+1. ASK "Military Time or Standard?"
+2. ASK "What time zone?"
+3. ASK "What day and time should the alarm be?"
+3a. ASK" What alarm sound would you like?" 
+3b. IF "alarm_sound1" is chosen, PLAY "sound_1"
+3c. IF "alarm_sound2" is chosen, PLAY "sound_2"
+4. IF alarm_time IS EQUAL to current_time, play "alarm_sound1" OR play "alarm_sound2"
+5a. ASK "Do you want to snooze or stop alarm?"
+5b1. IF snooze: pause alarm for 5 min
+5c. IF stop: turn off alarm
+
+STOP
