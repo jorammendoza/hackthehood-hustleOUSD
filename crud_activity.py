@@ -12,7 +12,7 @@ def read(index):
     if index<len(cookbook):
        return cookbook[index]
     else:
-        print ("Please pick an index within the rage")
+        print ("Invalid index. Please try again.")
 
 #Step 4: 
 def update(index, recipe):

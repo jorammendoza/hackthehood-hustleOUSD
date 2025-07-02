@@ -13,8 +13,8 @@ age = 17
 used_python = False
 
 ## Step 5
-hobbies = ["Playing sports", "working out", "eating", "playing video games","hanging out with friends and family" ]
+hobbies = ["Playing sports", "working out", "eating", "playing video games","hanging out with friends and family"]
 
 ## Step 6 
-favorite_things = {"sports": "soccer", "soccer team": "Real Madrid", "food": "burritos", "color": "black", "animal": "lizards",}
+favorite_things = {"sports": "soccer", "soccer team": "Real Madrid", "food": "burritos", "color": "black", "animal": "lizards"}
 
