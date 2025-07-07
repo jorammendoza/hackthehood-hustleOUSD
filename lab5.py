@@ -42,4 +42,3 @@ def generate_multiple_powers(powers_list):
         print(i)
 powers_test = ["flying", "super jump", "telekinesis"]
 generate_multiple_powers(powers_test)
-

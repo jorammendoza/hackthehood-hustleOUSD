@@ -27,7 +27,7 @@ for i in List:
 inventory = ["TNT", "Glass", "Grass", "Gold", "Oak Stairs"]
 
 for i in (inventory):
-    if i =="gold":
+    if i =="Gold":
         print(f"You found {i} ,Congrats!")
     else:
         print(f"You have {i}")

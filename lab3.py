@@ -25,7 +25,7 @@ print(number_list[0:3])
 print(number_list[-3:])
 
 # Task 3: Working with Dictionaries
-books = {'Jeff Kinney': 'Diary of a Wimpy Kid', 'Lauren Tarshis': 'I Survived', 'R.L. Stine': 'Goosebumps'} 
+books = {'Jeff Kinney': 'Diary of a Wimpy Kid', 'Lauren Tarshis': 'I Survived', 'R.L. Stine': 'Goosebumps', 'Suzanne Collins': 'The Hunger Games'} 
 print(books.keys())
 print(books.values())
 print(books.get('Lauren Tarshis'))
