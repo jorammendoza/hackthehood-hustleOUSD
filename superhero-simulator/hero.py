@@ -55,6 +55,9 @@ if __name__ == "__main__":
     my_hero.add_ability(Ability("Fireball", 30))
     my_hero.add_ability(Ability("Lightning", 50))
     my_hero.add_ability(Ability("Telekinesis", 60))
+    my_hero.add_armor(Armor("Shield", 30))
+    my_hero.add_armor(Armor('Helmet', 20))
+    my_hero.add_armor(Armor('Gloves', 10))
     print(my_hero.sum_of_attacks())
 
 my_hero.battle(my_hero2)
